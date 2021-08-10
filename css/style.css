@@ -1,0 +1,101 @@
+#banner {
+    background-color: rgb(255,189,103);
+    height: 70vh;
+}
+
+#info {
+    height: 40vh;
+
+}
+#info button {
+    text-align: center;
+    padding: 10px 50px;
+}
+#info a:hover {
+    background-color: rgb(31,64,93  );
+    color: white;
+
+}
+#info-highlighted {
+
+
+}
+#info-highlighted .card {
+    text-align: justify;
+    height: 20rem;
+
+}
+#info-highlighted p {
+    color: white;
+
+}
+#info-highlighted a {
+    border: 1px solid black;
+
+}
+#info .container a {
+    border-radius: 0 !important;
+
+}
+#info .container a:hover {
+    background-color: rgb(31,64,93);
+    color: white;
+
+}
+.card-info {
+    height: 300px;
+}
+.container {
+    max-width: 980px !important
+}
+
+#banner-footer h1 {
+    color: rgb(31,64,93 );
+
+}
+#footer-info {
+    background-color: rgb(31,64,93 );
+    color: white;
+}
+#footer-info a{
+    color: white;
+    text-decoration: none;
+}
+#footer-info ul {
+    list-style: none;
+
+}
+#footer-info ul li{
+    margin-left: -30px;
+}
+
+  
+
+@media only screen and (max-width: 768px) {
+    #info {
+        height: 100vh;
+
+    }
+    #info a {
+        width: 300px !important;
+
+    }
+    #banner-footer {
+        text-align: center;
+
+    }
+    #banner-footer h1 {
+        padding-top: 2.5rem;
+
+    }
+    #banner-info {
+        text-align: center;
+    }
+    #footer-info{
+        text-align: center;
+    }
+    #footer-info ul li {
+        margin: 0px 5px;
+        display: inline flow-root list-item;
+    }
+}
